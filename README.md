@@ -220,7 +220,7 @@ Open the terminal at the root of the project and run the following command to in
 
 * **Running:**
 
-After installation, you can run the project with the folloiwng command:
+After installation, you can run the project with the following command:
 
 `py main.py`
 
