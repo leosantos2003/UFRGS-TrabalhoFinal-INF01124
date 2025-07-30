@@ -98,7 +98,7 @@ The system supports four types of queries, implemented in **consultas.py**:
 
 1. `player <prefix>`:
 
-Returns all players whose name long_namestarts with the <prefixo>given name. Results are sorted by the player's overall average rating, in descending order.
+Returns all players whose long_name starts with the given <prefix>. Results are sorted by the player's overall average rating, in descending order.
 
 * Example: `player Neymar`
 
@@ -120,7 +120,7 @@ Consulta executada em 0.002950 segundos.
 
 2. `user <user_id>`:
 
-Returns the 20 highest-rated players for a given user <user_id>. Sorting is done first by the user's rating (primary) and then by the player's overall rating (secondary).
+Returns the 20 highest-rated players by a given user <user_id>. Sorting is done first by the user's rating (primary) and then by the player's overall rating (secondary).
 
 * Example: `user 118046`
 
@@ -134,7 +134,7 @@ Consulta executada em 0.001556 segundos.
 -----------------------------------
 ```
 
-3. `top<N> '<position>'`:
+3. `top<N><position>`:
 
 Returns the <N> best players of a specific <position>, who have at least 1000 reviews. The position can be enclosed in quotation marks.
 
