@@ -1,6 +1,6 @@
 # Data Search and Classification System - FIFA 21
 
-**INF01124 - Classificação e Pesquisa de Dados - UFRGS - 2024/1**
+**INF01124 - Classificação e Pesquisa de Dados - UFRGS - Trabalho Final - 2024/1**
 
 ## About the Project
 
